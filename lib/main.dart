@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoppingapp/login.dart';
+import '/screens/login.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -24,6 +24,8 @@ class MyAppState extends State<MyApp> {
       home: LoginScreen(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        splashColor: Colors.transparent,
+    highlightColor: Colors.transparent,
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.purple,

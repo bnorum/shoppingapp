@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:shoppingapp/home.dart';
+import '/screens/home.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:transparent_image/transparent_image.dart';
 
